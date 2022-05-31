@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antônio Reis | Portfólio Responsivo</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="toggle" onclick="toggleMenu();"></div>
+
+  <section class="banner" id="home">
+    <div class="imgSidebar">
+      <img src="/images/bg.png" alt="">
+    </div>
+    <div class="contentBox">
+      <h5 class="logoText">Meu_Portfolio</h5>
+      <div>
+        <h4><span>Olá </span>Eu sou</h4>
+        <h2>Antônio Reis</h2>
+        <h4>E estou estudando desenvolvimento Web.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quia laboriosam natus. Minima ea laboriosam ratione facere reprehenderit minus dicta, enim error, natus tempore quaerat. Dolor iusto quaerat vel expedita?
+        Quis distinctio accusamus perspiciatis ut voluptatem odit commodi in sunt suscipit laudantium, dolorum pariatur officiis magnam aliquid perferendis eveniet corrupti dolore labore officia eaque saepe voluptatum animi? Doloremque, mollitia porro.</p>
+        <a href="#" class="btn">Sobre mim</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      const menuToggle = document.querySelector('.toggle');
+      menuToggle.classList.toggle('active')
+    }
+  </script>
+  </div>
+</body>
+
+</html>
